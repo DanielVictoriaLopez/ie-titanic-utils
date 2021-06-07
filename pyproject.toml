@@ -7,4 +7,6 @@ module = "ie_utils"
 author = "Daniel Victoria López"
 author-email = "daniel.victoria@student.ie.edu"
 description-file = "README.md"
-
+requires = [
+"pandas"
+]
