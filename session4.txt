@@ -1,0 +1,57 @@
+    1  pwd
+    2  import str_utils as st
+    3  ls
+    4  conda activate py39
+    5  conda env export
+    6  conda env export > environment.yml
+    7  head environment.yml
+    8  ls
+    9  conda env create -f environment.yml
+   10  conda env list
+   11  conda activate py39_test
+   12  conda env list
+   13  conda list
+   14  conda install pytorch
+   15  conda activate py30
+   16  conda activate py39
+   17  conda install pytorch
+   18  conda env list
+   19  conda activate titanic39
+   20  pip install .
+   21  cd ie-titanic-utils/
+   22  pip install .
+   23  cd
+   24  import ie_utils
+   25  python
+   26  conda activate titanic39
+   27  cd ie-titanic-utils/
+   28  ls
+   29  git statys
+   30  git status
+   31  mkdir src
+   32  mkdir src/ie_utils
+   33  mv ie_utils.py src/ie_utils/__init__.py
+   34  pip install .
+   35  echo "hello" > test.txt
+   36  rm test.txt
+   37  python
+   38  pip install .
+   39  python
+   40  git status
+   41  git add .
+   42  git status
+   43  git commint -m 'Add packaging metadata'
+   44  git commit -m 'Add packaging metadata'
+   45  git push
+   46  pip uninstall ie_utils
+   47  pip install git+https://github.com/DanielVictoriaLopez/ie-titanic-utils
+   48  pip install .
+   49  python
+   50  pip install .
+   51  python
+   52  git status
+   53  git add .
+   54  git status
+   55  git commit -m 'Pandas depending text'
+   56  git push
+   57  history > session4.txt
