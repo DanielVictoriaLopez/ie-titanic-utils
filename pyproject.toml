@@ -8,7 +8,8 @@ author = "Daniel Victoria López"
 author-email = "daniel.victoria@student.ie.edu"
 description-file = "README.md"
 requires = [
-"pandas"
+"pandas",
+# "flask" # Instead, sepecified in requirements.txt
 ]
 
 [tool.flit.entrypoints."console_scripts"]
